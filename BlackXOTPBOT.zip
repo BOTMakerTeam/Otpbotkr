@@ -15,18 +15,18 @@ import random
 from datetime import datetime, timedelta
 
 # --- Configuration ---
-BOT_NAME = "BlackX Bot"
-USERNAME = "BlackX"
-PASSWORD = "BlackX@#"
+BOT_NAME = "OTP Bot"
+USERNAME = "Stream"
+PASSWORD = "Stream@#"
 DB_FILE = "sms_database_np.db" 
 
 # --- Telegram Configuration ---
-TELEGRAM_BOT_TOKEN = "8471160586:AAEq28YvhgQ26pR9Wb8GNfbb3ZXdxwKxOYA"
-DEFAULT_GROUP_CHAT_ID = "-1002820927082" 
+TELEGRAM_BOT_TOKEN = "7959848592:AAHzlnHoVxD4302s9yLjwgYJBBUNGx39uBc"
+DEFAULT_GROUP_CHAT_ID = "-1002516783528" 
 DM_CHAT_ID = "7701278483" 
 
 # --- New Configuration ---
-DEVELOPER_NAME = "Heart"
+DEVELOPER_NAME = "𓆩💔̲͟𝄠𝐋𝐨𝐧𝐞𝐥𝐲𖠌𝐇𝐞𝐚𝐫𝐭̲͟𓂀𝐌𝐢𝐬𝐬𝐢𝐧𝐠͟𝐌𝐞𓆪𝄠♥"
 DEVELOPER_TG_ID = "7701278483" 
 
 # --- API Endpoints ---
@@ -297,4 +297,5 @@ def main():
         print(f"\n[!!!] Critical startup error: {e}")
 
 if __name__ == "__main__":
+
     main()
