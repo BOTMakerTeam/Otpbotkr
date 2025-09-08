@@ -15,14 +15,14 @@ import random
 from datetime import datetime, timedelta
 
 # --- Configuration ---
-BOT_NAME = "OTP Bot"
-USERNAME = "Stream"
-PASSWORD = "Stream@#"
+BOT_NAME = "Mahir OTP Bot"
+USERNAME = "BlackX"
+PASSWORD = "BlackX@#"
 DB_FILE = "sms_database_np.db" 
 
 # --- Telegram Configuration ---
-TELEGRAM_BOT_TOKEN = "7959848592:AAHzlnHoVxD4302s9yLjwgYJBBUNGx39uBc"
-DEFAULT_GROUP_CHAT_ID = "-1002516783528" 
+TELEGRAM_BOT_TOKEN = "8469851580:AAHAZh_N5wneXD5yp7YJJK-2-nepra1P8hw"
+DEFAULT_GROUP_CHAT_ID = "-1002453979882" 
 DM_CHAT_ID = "7701278483" 
 
 # --- New Configuration ---
@@ -299,3 +299,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
