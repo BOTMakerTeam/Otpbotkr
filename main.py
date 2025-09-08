@@ -22,7 +22,7 @@ DB_FILE = "sms_database_np.db"
 
 # --- Telegram Configuration ---
 TELEGRAM_BOT_TOKEN = "8469851580:AAHAZh_N5wneXD5yp7YJJK-2-nepra1P8hw"
-DEFAULT_GROUP_CHAT_ID = "-1002453979882" 
+DEFAULT_GROUP_CHAT_ID = "-1002380641428" 
 DM_CHAT_ID = "7701278483" 
 
 # --- New Configuration ---
@@ -299,4 +299,5 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
