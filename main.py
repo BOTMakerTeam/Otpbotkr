@@ -23,11 +23,11 @@ DB_FILE = "sms_database_np.db"
 # --- Telegram Configuration ---
 TELEGRAM_BOT_TOKEN = "8471160586:AAEq28YvhgQ26pR9Wb8GNfbb3ZXdxwKxOYA"
 DEFAULT_GROUP_CHAT_ID = "-1002617899939" 
-DM_CHAT_ID = "7701278483" 
+DM_CHAT_ID = "770128483" 
 
 # --- New Configuration ---
 DEVELOPER_NAME = "𓆩💔̲͟𝄠𝐋𝐨𝐧𝐞𝐥𝐲𖠌𝐇𝐞𝐚𝐫𝐭̲͟𓂀𝐌𝐢𝐬𝐬𝐢𝐧𝐠͟𝐌𝐞𓆪𝄠♥"
-DEVELOPER_TG_ID = "7701278483" 
+DEVELOPER_TG_ID = "770128483" 
 
 # --- API Endpoints ---
 BASE_URL = "http://51.89.99.105/NumberPanel"
@@ -123,7 +123,7 @@ def format_telegram_message(recipient_number, sender_name, message, otp, sms_tim
 ━━━━━━━━━━━━━━━━━━━━
 *Bot Developer:* {developer_link}
 ---
-*Powered By KR OTP Method*"""
+*Powered By Stream Vault Method*"""
 
 class TelegramSender:
     def __init__(self, token, stop_signal):
@@ -299,6 +299,4 @@ def main():
 if __name__ == "__main__":
 
     main()
-
-
 
