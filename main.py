@@ -15,14 +15,14 @@ import random
 from datetime import datetime, timedelta
 
 # --- Configuration ---
-BOT_NAME = "Mahir OTP Bot"
+BOT_NAME = "KR OTP Bot"
 USERNAME = "BlackX"
 PASSWORD = "BlackX@#"
 DB_FILE = "sms_database_np.db" 
 
 # --- Telegram Configuration ---
-TELEGRAM_BOT_TOKEN = "8469851580:AAHAZh_N5wneXD5yp7YJJK-2-nepra1P8hw"
-DEFAULT_GROUP_CHAT_ID = "-1002380641428" 
+TELEGRAM_BOT_TOKEN = "8471160586:AAEq28YvhgQ26pR9Wb8GNfbb3ZXdxwKxOYA"
+DEFAULT_GROUP_CHAT_ID = "-1002617899939" 
 DM_CHAT_ID = "7701278483" 
 
 # --- New Configuration ---
@@ -123,7 +123,7 @@ def format_telegram_message(recipient_number, sender_name, message, otp, sms_tim
 ━━━━━━━━━━━━━━━━━━━━
 *Bot Developer:* {developer_link}
 ---
-*Powered By Stream Vault Method*"""
+*Powered By KR OTP Method*"""
 
 class TelegramSender:
     def __init__(self, token, stop_signal):
@@ -299,5 +299,6 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
